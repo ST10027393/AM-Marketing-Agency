@@ -70,8 +70,8 @@ section {
     color: var(--main-color);
 }
 
-.navbtn:hover {
-    color: #000;
+.navbtn a:hover {
+    color: var(--bg-color);
 }
 
 #menu-icon {
