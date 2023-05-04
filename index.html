@@ -10,29 +10,37 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <link rel="stylesheet" href="style.css">
+    <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
 </head>
 
 <body>
-
     <header class="header">
-        <a href="#" class="logo">AM Marketing</a>
-
-        <i class='bx bx-menu' id="menu-icon"></i>
-
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-
-        </nav>
+        <div>
+            <a href="#" class="logo">AM Marketing</a>
+        </div>
+        <div>
+            <i class='bx bx-menu' id="menu-icon"></i>
+        </div>
+        <div>
+            <nav class="navbar">
+                <div class="nav1 nav2">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                </div>
+                <div class="nav1">
+                <a href="#contact" class="btn">Contact Us!</a>
+                </div>
+            </nav> 
+        </div>
     </header>
 
     <section class="home" id="home">
         <div class="home-content">
             <h3>Welcome to</h3>
             <h1>AM Marketing</h1>
-            <h3>We Specialise In <span class="multiple-text"></span></h3>
+            <h3>The #1 Agency that specializes in <span class="custom-words">Digital Marketing</span> and <span class="custom-words">Google Ads</span>.</h3>
+            <!-- <h3>We Specialise In <span class="multiple-text"></span></h3> -->
             <p>Drive More Leads and Boost Your Online Visibility with AM Marketing</p>
             <div class="social-media">
                 <a href="#"><i class='bx bxl-facebook'></i></a>
@@ -64,7 +72,7 @@
                 
             <a href="#" class="btn">Read More</a>
         </div>
-    </section>
+    </section> 
 
     <section class="services" id="services">
         <h2 class="heading">Our <span>Services</span></h2>
@@ -74,14 +82,14 @@
                 <i class='bx bx-bar-chart-alt' ></i>
                 <h3>Google Ads</h3>
                 <p>Our Google Ads service is designed to help businesses increase their online visibility and reach their target audience effectively. With Google Ads, we create customized ads that are displayed to potential customers when they search for keywords related to your business.</p>
-                <a href="#" class="btn">Read More</a>
+                <a href="#contact" class="btn">Find Out More</a>
             </div>
 
             <div class="services-box">
                 <i class='bx bx-run'></i>
                 <h3>Lead Traffic</h3>
                 <p>By targeting your ideal audience with Google Ads, we help you generate high-quality leads and increase conversions. Our team of experts uses advanced techniques and tools to optimize your campaigns and ensure maximum ROI.</p>
-                <a href="#" class="btn">Read More</a>
+                <a href="#contact" class="btn">Find Out More</a>
             </div>
        
     </section>
@@ -89,25 +97,29 @@
 
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Us!</span></h2>
-        <form action="#">
+        
+        <form action="#" id="myForm">
             <div class="input-box">
             <input type="text" placeholder="Full Name">
             <input type="email" placeholder="Email Address">
          </div>
+         <!--
          <div class="input-box">
             <input type="number" placeholder="Phone Number">
             <input type="text" placeholder="Email Subject">
          </div>
+        -->
          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
          <input type="submit" value="Send Message" class="btn">
         </form>
+  
+  
     </section>
         
    <footer class="footer">
         <div class="footer-text">
             <p>Copyright &copy; 2023 By AM Marketing | All Rights Reserved.</p>
         </div>
-
         <div class="footer-iconTop">
             <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
@@ -118,6 +130,7 @@
    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
     <script src="js/script.js"></script>
+
 </body>
 
 </html>
