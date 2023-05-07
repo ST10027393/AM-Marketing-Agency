@@ -70,7 +70,8 @@ section {
     color: var(--main-color);
 }
 
-.navbtn a:hover {
+.navbtn a:hover,
+.navbtn a:active {
     color: var(--bg-color);
 }
 
