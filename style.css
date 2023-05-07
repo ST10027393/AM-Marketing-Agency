@@ -70,6 +70,12 @@ section {
     color: var(--main-color);
 }
 
+.cta-btn-container {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: auto;
+}
+
 .navbtn a:hover,
 .navbtn a:active {
     color: var(--bg-color);
